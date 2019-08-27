@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.header {
+    height: 44px;
+    width: 100%;
+    background-color: #f0f0f0;
+    line-height:44px;
+}
+.header span {
+    font-size: 14px;
+    color:#6c6c6c;
+}
+.header span:nth-child(1){
+  float: left;
+}
+.header span:last-child{
+    float:right;
+}
+.clear{
+    width:818px;
+    margin:0 auto;                                                                                                                                                         
+    height: 100px;
+    line-height: 100px;
+}
+.clear img{
+    vertical-align: middle;
+}
+.clear .clear-right{
+    float: right;
+}
+.clear .clear-right li{
+    float: left;
+    padding: 0 10px;
+    color: #6c6c6c;
+    font-size: 14px;
+}
+.baner img{
+    width:100%;
+}
+.container{
+    margin:76px auto;
+    width:818px;
+
+}
+.container .explore {
+    box-sizing: border-box;
+    text-align: center;
+    width:204px;
+    height:360px;
+    float: left;
+    border:1px solid #e5e5e5;
+}
+.container .explore .top{
+    width:100px;
+    margin:22px auto;
+    font-size: 18px;
+    padding: 18px 0;
+    border-bottom:2px solid #b2b2b2;
+}
+.container .explore .desc{
+    width:120px;
+    line-height:18px;
+    font-size:14px;
+    margin:0 auto;
+}
+.container .explore .square{
+    text-align: center;
+    margin:15px auto;
+}
+.container .explore .square span{
+    color:#fff;
+    width: 80px;
+    display: inline-block;
+    font-size: 14px;
+    height: 18px;
+    background-color: #4c4c4c;
+}
+.container .uy{
+    float: left;
+    width: 410px;
+    text-align: center;
+    height:360px;
+}
+.uy .top{
+    margin-top:50px;
+   color:#c7000a;
+   font-size: 72px;
+}
+
+.container .uy .young{
+    color:#3b3429;
+    font-size:32px;
+    margin-top:26px;
+}
+.uy .english{
+    font-size:12px;
+    color:#a0a0a0;
+    margin-top:30px;
+}
+.container .exlec{
+    box-sizing: border-box;
+    width: 304px;
+    float: left;
+    width: 204px;
+    border:1px solid #b2b2b2;
+    text-align: center;
+    height:360px;
+}
+.child .exlec .top{
+    padding:18px 0;
+    width:100px;
+    border-bottom:2px solid #b2b2b2;
+    letter-spacing: 2px;
+    font-size:18px;
+    margin:22px auto;
+}
+.child .exlec .have{
+    font-size: 14px;
+}
+.child .exlec .ex{
+    color:white;
+    background-color: #4c4c4c;
+    width:100px;
+    margin:25px auto;
+    font-size: 14px;
+}
+.child .exlec img{
+    width: 145px;
+}
